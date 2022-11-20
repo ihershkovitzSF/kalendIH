@@ -75,15 +75,15 @@ export const parseEventColor = (
     ? calendarColors[colorString][isDark ? 'dark' : 'light']
     : colorString;
 
-export const daysText = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+export const daysText = ['שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שבת', 'ראשון'];
 export const daysTextSundayStart = [
-  'Sun',
-  'Mon',
-  'Tue',
-  'Wed',
-  'Thu',
-  'Fri',
-  'Sat',
+  'ראשון',
+  'שני',
+  'שלישי',
+  'רביעי',
+  'חמישי',
+  'שישי',
+  'שבת',
 ];
 
 export const calculateOneDay = (date: DateTime): DateTime => {
